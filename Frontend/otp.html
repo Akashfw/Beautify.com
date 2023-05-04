@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/otp.css" />
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <div class="vector">
@@ -32,5 +33,126 @@
 </html>
 
 <script>
+    const Toast = Swal.mixin({
+    toast: true,
+    position: 'top-end',
+    showConfirmButton: false,
+    timer: 3000,
+    timerProgressBar: true,
+    didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+    }
+    })
+
+    
+
+
+
+const inputs = document.querySelectorAll("input"),
+button = document.querySelector("button");
+
+
+inputs.forEach((input, index1) => {
+input.addEventListener("keyup", (e) => {
+  const currentInput = input,
+    nextInput = input.nextElementSibling,
+    prevInput = input.previousElementSibling;
+  if (currentInput.value.length > 1) {
+    currentInput.value = "";
+    return;
+  }
+  if (nextInput && nextInput.hasAttribute("disabled") && currentInput.value !== "") {
+    nextInput.removeAttribute("disabled");
+    nextInput.focus();
+  }
+
+  if (e.key === "Backspace") {
+   
+    inputs.forEach((input, index2) => {
+      if (index1 <= index2 && prevInput) {
+        input.setAttribute("disabled", true);
+        input.value = "";
+        prevInput.focus();
+      }
+    });
+  }
+  if (!inputs[3].disabled && inputs[3].value !== "") {
+    button.classList.add("active");
+    return;
+  }
+  button.classList.remove("active");
+});
+});
+window.addEventListener("load", () => inputs[0].focus());
+
+const otpbutton = document.querySelector("#otpbutton");
+otpbutton.addEventListener("click",fun);
+async function fun(event) {
+  try {
+    event.preventDefault();
+   
+    let first=document.querySelector("#first").value;
+    let second=document.querySelector("#second").value;
+    let third=document.querySelector("#third").value;
+    let fourth=document.querySelector("#fourth").value;
+    let bag=""
+    bag+=first+second+third+fourth
+    let jhola=(bag)
+    // console.log(jhola)
+
+    let arr=localStorage.getItem("user")
+    let otparr=localStorage.getItem("back")
+    console.log(otparr)
+   
+    let p=JSON.parse(arr)
+    let userObj = {
+    
+        email:p.email,
+       password:p.password,
+       otp:jhola
+    };
+    let register_request = await fetch("https://should-app.cyclic.app/user/register", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(userObj)
+    })
+    .then(res=>res.json())
+    .then(data=>  {
+      console.log(data)
+      if(bag==otparr){
+        // alert("registered successfully")
+        Toast.fire({
+        icon: 'success',
+        title: 'Registered successfully'
+        })
+        window.location.href="./login.html"
+        localStorage.clear()
+      }
+      else{
+        // alert("wrong otp")
+        Toast.fire({
+        icon: 'error',
+        title: 'Wrong OTP'
+        })
+         window.location.href="./otp.html"
+      }
+        // window.location.href="./signup.html"
+         
+})
+    .catch(err=>console.log(err))
+  } catch (error) {
+    // alert("Something went wrong. Please try again later.");
+    Toast.fire({
+        icon: 'error',
+        title: 'Something went wrong, Please try again later.'
+        })
+    // console.log(error);
+
+
+  }
+}
 
 </script>
