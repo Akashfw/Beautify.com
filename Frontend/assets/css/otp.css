@@ -20,7 +20,7 @@ body {
   justify-content: center;
 }
 .container {
-  background: #CBF1F5;
+  background: #A6E3E9;
   padding: 50px 85px;
   border-radius: 12px;
   row-gap: 20px;
@@ -36,7 +36,7 @@ body {
 .container header {
   height: 105px;
   width: 105px;
-  background: #71C9CE;
+  background: #106e73;
   color: #fff;
   font-size: 4.5rem;
   border-radius: 50%;
@@ -76,11 +76,13 @@ form button {
   cursor: pointer;
   border-radius: 6px;
   pointer-events: none;
-  background: #71C9CE;
+  background: #106e73;
   transition: all 0.2s ease;
+  color: #fff;
   
 }
 form button.active {
-  background: #fff;
+  background: #106e73;
+  color: #fff;
   pointer-events: auto;
 }
