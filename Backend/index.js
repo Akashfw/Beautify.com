@@ -8,6 +8,10 @@ const port = process.env.PORT || 8081;
 
 // const { userRoute } = require("./routes/user.routes");
 const { mroute } = require("./routes/mail");
+const { login } = require("./routes/login");
+const { users } = require("./routes/users");
+const { newtokenRouter } = require("./routes/newtokenRouter");
+const { authenticate } = require("./middleware/auhenticate");
 
 app.use(
   cors({
@@ -20,7 +24,18 @@ app.get("/", (req, res) => {
 });
 
 // app.use("/users", userRoute);
+
+// USER REGISTERTION
 app.use("/mail", mroute);
+//USER LOGIN
+app.use("/login", login);
+//GET ALL USERS
+app.use("/users", users);
+//NEW TOKENS
+app.use("/newtoken", newtokenRouter);
+// authenticate [use this to authenticate];
+authenticate
+
 
 app.listen(port, async () => {
   try {
