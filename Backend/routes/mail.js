@@ -51,7 +51,7 @@ mroute.post("/sendotp", async (req, res) => {
         } else {
           req.body.password = hash;
           console.log(req.body);
-          await client.hSetNX("data", `${otp}`, JSON.stringify(req.body));
+         await client.hSetNX("data", `${otp}`, JSON.stringify(req.body)); 
           res.status(200).send("otp send to mail");
         }
         // console.log('Message sent: %s', info.messageId);
@@ -77,5 +77,7 @@ mroute.post("/verify", async (req, res) => {
     res.status(500).send("Invalid OTP");
   }
 });
+
+
 
 module.exports = { mroute };
