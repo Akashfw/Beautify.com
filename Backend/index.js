@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 app.use(express.json());
 require("dotenv").config();
+const {approuter}=require("./routes/appointment")
 const { connection } = require("./confige/config");
 const port = process.env.PORT || 8081;
 
@@ -11,7 +12,7 @@ const { mroute } = require("./routes/mail");
 const { login } = require("./routes/login");
 const { users } = require("./routes/users");
 const { newtokenRouter } = require("./routes/newtokenRouter");
-const { authenticate } = require("./middleware/auhenticate");
+// const { authenticate } = require("./middleware/auhenticate");
 
 app.use(
   cors({
@@ -34,9 +35,9 @@ app.use("/users", users);
 //NEW TOKENS
 app.use("/newtoken", newtokenRouter);
 // authenticate [use this to authenticate];
-authenticate
+//authenticate
 
-
+app.use("/api",approuter)
 app.listen(port, async () => {
   try {
     await connection;
