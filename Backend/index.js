@@ -3,7 +3,11 @@ const app = express();
 const cors = require("cors");
 app.use(express.json());
 require("dotenv").config();
-const port = process.env.PORT;
+const { connection } = require("./confige/config");
+const port = process.env.PORT || 8081;
+
+// const { userRoute } = require("./routes/user.routes");
+const { mroute } = require("./routes/mail");
 
 app.use(
   cors({
@@ -14,9 +18,13 @@ app.use(
 app.get("/", (req, res) => {
   res.send("Home Page");
 });
-app.listen(port, () => {
+
+// app.use("/users", userRoute);
+app.use("/mail", mroute);
+
+app.listen(port, async () => {
   try {
-    // await connection;
+    await connection;
     console.log("Connected established to the Database");
   } catch (error) {
     console.error(error);
