@@ -1,0 +1,563 @@
+[
+  {
+    "saloon": "naturals",
+    "image": "https://images.fresha.com/locations/location-profile-images/465849/468067/5e9841df-aa38-4dc4-8574-45b448034b85.jpg?class=width-small",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["sriram","saurabh","sunny","pavan","pavan"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "address": "Spa,Suncity 119, Chevella Rd,Padmasri Estates, Hyder Shah Kote, Bandlaguda Jagir, Telangana 500091",
+    "city": "hyderabad"
+  },
+  {
+    "saloon": "ekveer",
+    "image": "https://images.fresha.com/locations/location-profile-images/398081/432254/eab95cfc-bd4f-408a-8e39-394547439c1c.jpg?class=width-small",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Alice", "Bob","Charlie","Dave"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "address": "Naturals Salon & Spa Kondapur Plot No 185-C & 186C,Seshadri Marg, Raghavendra colony,Kondapur, opp. : Heritage fresh super Market,Hyderabad, Telangana 500084",
+    "city": "hyderabad"
+  },
+  {
+    "saloon": "rrv care",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fw0.peakpx.com%2Fwallpaper%2F503%2F918%2FHD-wallpaper-beauty-salon-beautician.jpg&tbnid=4-m3pLzGfd2UVM&vet=12ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMygOegUIARDbAQ..i&imgrefurl=https%3A%2F%2Fwww.peakpx.com%2Fen%2Fsearch%3Fq%3Dbeauty%2Bsalon&docid=NJ8D6af7gKQRKM&w=800&h=450&q=saloon%20hd%20images&hl=en&ved=2ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMygOegUIARDbAQ",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Eve", "Frank", "Grace", "Heidi"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "address": "4-6-78/3, Second Floor,Attapur Main Road Mushk Mahal,Attapur, opp. Eeshwar Theater, Hyderabad, Telangana 500064",
+    "city": "hyderabad"
+  },
+  {
+    "saloon": "beautify",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F640274128%2Fphoto%2Fbarber-using-scissors-and-comb.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DmjdP6NhDA40WBorr8kyyI69waMs1EyzLkSmT6lQRvGU%3D&tbnid=Nc34BnJr9fhLWM&vet=12ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMygMegUIARDWAQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fhair-salon&docid=t7uXWnQr-_OuOM&w=612&h=408&q=saloon%20hd%20images&hl=en&ved=2ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMygMegUIARDWAQ",
+    "address": "Second floor, Sainagar Colony Road no: 3, Alkapuri Junction 2-3-457/3/1, junction, above Tata show room,Alkapuri Colony, Nagole,Hyderabad, Telangana 500068",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Isaac", "Jack", "Karen", "Liam"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "hyderabad"
+  },
+  {
+    "saloon": "beautify",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81WteEESPZL._SX355_.jpg&tbnid=QqWcyTN1CR3lBM&vet=12ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMygUegUIARDnAQ..i&imgrefurl=https%3A%2F%2Fwww.amazon.in%2FMystic-Walls-MWZ3632-Scissors-Wallpaper%2Fdp%2FB0B8CDZBDL&docid=VUkfRcA3CQ-CNM&w=355&h=224&itg=1&q=saloon%20hd%20images&hl=en&ved=2ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMygUegUIARDnAQ",
+    "address": "21, Vidyaranyapura Main Rd,BEL Layout 4th Block,NTI Layout, Vidyaranyapura,Bengaluru, Karnataka 560097",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Mia", "Nora", "Oliver", "Penny"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "bengaluru"
+  },
+  {
+    "saloon": "Stylette",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F134052142%2Fphoto%2Fhair-salon-situation.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DHM4Tl3ATijpIS1Rv097UHwmZ3OfmqGXkniNLuTCqB0A%3D&tbnid=Www67cJSHl687M&vet=12ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMyglegUIARCOAg..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fhair-salon&docid=t7uXWnQr-_OuOM&w=612&h=473&q=saloon%20hd%20images&hl=en&ved=2ahUKEwjBiKDYwdv-AhXrDbcAHSlNC9gQMyglegUIARCOAg",
+    "address": "1st Floor, No.420, V P Plaza, CMR Main Rd, Nagar, HRBR Layout 2nd Block, Kalyan Nagar, Bengaluru, Karnataka 560043",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Quinn", "Riley", "Samantha", "Tom"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "bengaluru"
+  },
+  {
+    "saloon": "Fashionic",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gettyimages.in%2Fphotos%2Fbeauty-salon&psig=AOvVaw1wUem2tUCrWb7xKh3x7p4H&ust=1683284536812000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOj9q9nB2_4CFQAAAAAdAAAAABAF",
+    "address": "04 1st Floor Sophia's Choice Building, St Mark's Rd, Ashok Nagar, Bengaluru, Karnataka 560001",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Una", "Vera", "Wendy", "Xander"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "bengaluru"
+  },
+
+  {
+    "saloon": "naturals",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.gettyimages.com%2Fid%2F1139132195%2Fphoto%2Fmodern-hair-salon.jpg%3Fs%3D612x612%26w%3Dgi%26k%3D20%26c%3Dt_nvt71q7UXS4_RgW0aZnnrYnM-3VmvualiV3u5PUjg%3D&tbnid=7rU6CyqmfSOCOM&vet=10CJoBEDMoqgFqFwoTCOj9q9nB2_4CFQAAAAAdAAAAABAD..i&imgrefurl=https%3A%2F%2Fwww.gettyimages.in%2Fphotos%2Fbeauty-salon&docid=tp9enwgRe9uayM&w=612&h=408&q=saloon%20hd%20images&hl=en&ved=0CJoBEDMoqgFqFwoTCOj9q9nB2_4CFQAAAAAdAAAAABAD",
+    "address": "Ground Floor, Lavelle Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Yara", "Zane", "Aaron", "Brianna"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "bengaluru"
+  },
+  {
+    "saloon": "Unicure",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphoto%2Fhair-washing-and-rinsing-in-fancy-hair-salon-gm1139130538-304376553&psig=AOvVaw1wUem2tUCrWb7xKh3x7p4H&ust=1683284536812000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOj9q9nB2_4CFQAAAAAdAAAAABAS",
+    "address": "#610, 12th Main Rd, Opp. SBI, HAL 2nd Stage, Indiranagar, Bengaluru, Karnataka 560038",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Caleb", "Dana", "Elise", "Finn"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "bengaluru"
+  },
+  {
+    "saloon": "Bounce unisex",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphoto%2Fworking-day-inside-the-hair-salon-gm858196852-142191991&psig=AOvVaw1wUem2tUCrWb7xKh3x7p4H&ust=1683284536812000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOj9q9nB2_4CFQAAAAAdAAAAABAa",
+    "address": "No. 36 First Floor, Vittal Mallya Rd, Ashok Nagar, Bengaluru, Karnataka 560001",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Gina", "Hannah", "Ian", "Jake"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "bengaluru"
+  },
+  {
+    "saloon": "lakme",
+    "image": "https://cdn1.treatwell.net/images/view/v2.i1454717.w720.h480.x08E6A92C/",
+    "address": "Lakme Salon Vijayanagar Bangalore 1st Floor,17th Cross, 21st Main Rd, MC Layout, Bengaluru, Karnataka 560040",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Katie", "Landon", "Maggie", "Nathan"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "bengaluru"
+  },
+  {
+    "saloon": "Fiocchi",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.treatwell.co.uk%2Fplace%2Fhelena-mcrae-salon%2F&psig=AOvVaw1wUem2tUCrWb7xKh3x7p4H&ust=1683284536812000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOj9q9nB2_4CFQAAAAAdAAAAABAq",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Oscar", "Paula", "Quincy", "Rose"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "address": "1st Floor, No. 52, 53, Lavelle Road, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+    "city": "bengaluru"
+  },
+  {
+    "saloon": "lakme",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.retail4growth.com%2Fpublic%2Fthumbs%2Fnews%2F2019%2F12%2F4714%2FLakme_Salon_Thumnail_440_851.jpg&tbnid=-5wK81kUZAXNfM&vet=12ahUKEwj3ofzXw9v-AhVO6HMBHaTuBXcQMygLegUIARD0AQ..i&imgrefurl=https%3A%2F%2Fwww.retail4growth.com%2Fnews%2Flakme-salon-launches-sustainability-initiative-4714&docid=oTBUfpsT8rWd6M&w=715&h=440&q=lakme%20salon&ved=2ahUKEwj3ofzXw9v-AhVO6HMBHaTuBXcQMygLegUIARD0AQ",
+    "address": "58b, Balaji Nagar Padikuppam Road, S Park Rd, Anna Nagar West, Chennai, Tamil Nadu 600040",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Sofia", "Trevor", "Ulrich", "Valerie"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "chennai"
+  },
+  {
+    "saloon": "Fiocchi",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fbeauty-salon&psig=AOvVaw1dGbBtDW0saty8ikEWirSn&ust=1683285240330000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCPDvi6nE2_4CFQAAAAAdAAAAABAE",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Wyatt", "Xena", "Yolanda", "Zack"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "address": "Amara Ananta, 3/620, C, East Coast Rd, Govindan Nagar, Palavakkam, Chennai, Tamil Nadu 600041",
+    "city": "chennai"
+  },
+  {
+    "saloon": "Zuma & Nadal",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F1153438285%2Fphoto%2Fwoman-at-hair-salon.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DFyHTWvInPUeuMgNMBdDG1765edXLx9eoUKF_iaptvaU%3D&tbnid=W2BlQaBI3I1D5M&vet=12ahUKEwiVr9unxNv-AhWDT3wKHZC4BMEQMyhAegUIARCGAQ..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fwoman-beauty-salon&docid=fUZru8kDklVMqM&w=612&h=408&q=beauty%20salon%20images&hl=en&ved=2ahUKEwiVr9unxNv-AhWDT3wKHZC4BMEQMyhAegUIARCGAQ",
+    "address": " Tamilvanan Complex, AA-144,2nd floor, 3rd Ave, above IDFC Bank, Anna Nagar, Chennai, Tamil Nadu 600040",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Abby", "Brian", "Cody", "Danielle"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "chennai"
+  },
+  {
+    "saloon": "Mirrored",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Farchello.s3.eu-central-1.amazonaws.com%2Fimages%2F2020%2F10%2F30%2Fstudio-58-a-beauty-salon-private-houses-archello.1604054978.4449.jpg&tbnid=6nwYrbUGZ0khnM&vet=12ahUKEwiVr9unxNv-AhWDT3wKHZC4BMEQMyhPegUIARCtAQ..i&imgrefurl=https%3A%2F%2Farchello.com%2Fproject%2Fa-beauty-salon&docid=WJAuf-X8kTMDIM&w=2400&h=1350&q=beauty%20salon%20images&hl=en&ved=2ahUKEwiVr9unxNv-AhWDT3wKHZC4BMEQMyhPegUIARCtAQ",
+    "address": " 1, Dr Radha Krishnan Salai, Dwarka Colony, Mylapore, Chennai, Tamil Nadu 600004",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Ellie", "Fred", "Georgia", "Henry"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "chennai"
+  },
+  {
+    "saloon": "Mirrored",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81dUPZmEZSL._SL1500_.jpg&tbnid=kyfijobEJA3SYM&vet=12ahUKEwi58vX7xNv-AhX-oNgFHQVXBsoQMygHegUIARDzAQ..i&imgrefurl=https%3A%2F%2Fwww.amazon.in%2Ffingerz-Sticker-Synthetic-Parlour-Resolution%2Fdp%2FB07SN3P7CK&docid=Uvk5w-J4U5_b3M&w=1500&h=750&q=beauty%20parlour%20poster%20hd&hl=en&ved=2ahUKEwi58vX7xNv-AhX-oNgFHQVXBsoQMygHegUIARDzAQ",
+    "address": "1, CP Ramaswamy Road, Subbaraya Avenue, Vidhya Thirtha Nagar, Alwarpet, Chennai, Tamil Nadu 600018",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Ivy", "John", "Kim", "Luke"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "chennai"
+  },
+  {
+    "saloon": "Mirrored",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F81dUPZmEZSL._SL1500_.jpg&tbnid=kyfijobEJA3SYM&vet=12ahUKEwi58vX7xNv-AhX-oNgFHQVXBsoQMygHegUIARDzAQ..i&imgrefurl=https%3A%2F%2Fwww.amazon.in%2Ffingerz-Sticker-Synthetic-Parlour-Resolution%2Fdp%2FB07SN3P7CK&docid=Uvk5w-J4U5_b3M&w=1500&h=750&q=beauty%20parlour%20poster%20hd&hl=en&ved=2ahUKEwi58vX7xNv-AhX-oNgFHQVXBsoQMygHegUIARDzAQ",
+    "address": "2nd floor Door No : 5, 87-20, Lakshmipuram Main Rd, opp. sri Chaitanya Junior College, Ashok Nagar, Guntur, Andhra Pradesh 522007",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Max", "Nancy", "Owen", "Pam"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "Guntur"
+  },
+  {
+    "saloon": "Styloria",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fe1.pxfuel.com%2Fdesktop-wallpaper%2F164%2F126%2Fdesktop-wallpaper-beauty-salon-beauty-parlour.jpg&tbnid=v7-9yjMasAWAaM&vet=12ahUKEwjs2fiixdv-AhXqELcAHYccCzcQMygXegUIARCkAg..i&imgrefurl=https%3A%2F%2Fwww.pxfuel.com%2Fen%2Fdesktop-wallpaper-fwxgf&docid=C5marjvfjtElOM&w=850&h=567&q=beauty%20parlour%20background&hl=en&ved=2ahUKEwjs2fiixdv-AhXqELcAHYccCzcQMygXegUIARCkAg",
+    "address": " Padmavathi Complex, 201 First Floor Phoenix, Lakshmipuram Main Rd, Guntur, Andhra Pradesh 522002",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Quinn", "Rachel", "Seth", "Tina"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "Guntur"
+  },
+  {
+    "saloon": "green trends",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D463300529143197&tbnid=_E_nuRKCv3O3BM&vet=12ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMygCegUIARDhAQ..i&imgrefurl=https%3A%2F%2Fwww.facebook.com%2FRadiantLifeSpaandSalon%2F&docid=bfY8NpXXPa_4uM&w=1589&h=610&q=unisex%20salon%20images&hl=en&ved=2ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMygCegUIARDhAQ",
+    "address": "82, First Satya Akarsha 5, 37, Lakshmipuram Main Rd, Opp HDFC Bank, Lakshmipuram, Guntur, Andhra Pradesh 522002",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+"totalemployees":["Ursula", "Victor", "Wes", "Xavier"],
+"timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "Guntur"
+  },
+  {
+    "saloon": "unicare",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F04%2F82%2F37%2F33%2F360_F_482373347_YbjYoyoI74q95ox1pmAss1quFdtBkevL.jpg&tbnid=xv22iGNOedhr4M&vet=12ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMyggegUIARCmAg..i&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dunisex%2Bsalon%2Blogo&docid=NwBbbXxcUc9A_M&w=360&h=360&q=unisex%20salon%20images&hl=en&ved=2ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMyggegUIARCmAg",
+    "address": "D. No, 28-3-92, 5th Line, opp. Neerus, Pandaripuram, Ashok Nagar, Guntur, Andhra Pradesh 522002",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Yvonne", "Ziggy", "Adam", "Belle"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "Guntur"
+  },
+  {
+    "saloon": "lakme",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71IrmNSdMYL._SL1387_.jpg&tbnid=Clv4J8nmzar3MM&vet=12ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMyg-egQIARB7..i&imgrefurl=https%3A%2F%2Fwww.amazon.in%2FLYOMAN%25C2%25AE-Sticker-Unisex-Stickers-Office%2Fdp%2FB07W85HC5G&docid=iAtRCqsDLcBewM&w=1387&h=1312&q=unisex%20salon%20images&hl=en&ved=2ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMyg-egQIARB7",
+    "address": "Plot No 5, 87/92, 1st floor, Lakshmipuram Main Rd, Lakshmipuram, Guntur, Andhra Pradesh 522007",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Carl", "Daisy", "Eli", "Fiona"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "Guntur"
+  },
+  {
+    "saloon": "capello",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgmedia.lbb.in%2Fmedia%2F2019%2F10%2F5da471d8161dd46a3df85c97_1571058136746.jpg&tbnid=8SQMaoEjj7_y0M&vet=12ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMyhbegUIARC9AQ..i&imgrefurl=https%3A%2F%2Flbb.in%2Fkolkata%2Fwavelength-unisex-salon-kankurgachi%2F&docid=Je01SFqaLM9n8M&w=1280&h=853&q=unisex%20salon%20images&hl=en&ved=2ahUKEwjqgbK6xdv-AhWOzXMBHW4uDgcQMyhbegUIARC9AQ",
+    "address": " Plot No - 10, near Governor House, Civil Lines, Raipur, Chhattisgarh 492001",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Gabe", "Holly", "Isaiah", "Jenny"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "raipur"
+  },
+  {
+    "saloon": "opera",
+    "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2FRadiantLifeSpaandSalon%2F&psig=AOvVaw0nHyq1dzPSSrSxu5q7-php&ust=1683285547934000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJiJ2bvF2_4CFQAAAAAdAAAAABAK",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "address": "Raj Bhawan rd Chowk, Moti Bagh, Civil Lines, Raipur, Chhattisgarh 492001",
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "totalemployees":["Kelly", "Leo", "Martha", "Nick"],
+    "city": "raipur"
+  },
+  {
+    "saloon": "lovely",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimgmedia.lbb.in%2Fmedia%2F2018%2F12%2F5c112f6d6726652753d8bdfd_1544630125794.jpg&tbnid=4TLpM3x6HQZofM&vet=10CBgQxiAoCWoXChMImInZu8Xb_gIVAAAAAB0AAAAAEBA..i&imgrefurl=https%3A%2F%2Flbb.in%2Fchennai%2Ftop-salons-in-chennai%2F&docid=PdcyPk1YxyuEmM&w=900&h=900&itg=1&q=unisex%20salon%20images&hl=en&ved=0CBgQxiAoCWoXChMImInZu8Xb_gIVAAAAAB0AAAAAEBA",
+    "address": "  Lily chowk, Purani Basti, Raipur, Chhattisgarh 492001",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Olivia", "Pete", "Quinn", "Ryan"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "raipur"
+  },
+  {
+    "saloon": "glitz",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-illustration%2Fbarber-shop-mens-beauty-unisex-260nw-2205904775.jpg&tbnid=RFHqCx2bdPrGOM&vet=10CEcQMyiHAWoXChMImInZu8Xb_gIVAAAAAB0AAAAAEAM..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Funisex-salon&docid=Vx_jiM0WsUjJyM&w=416&h=280&q=unisex%20salon%20images&hl=en&ved=0CEcQMyiHAWoXChMImInZu8Xb_gIVAAAAAB0AAAAAEAM",
+    "address": " 29/3 Geetanjali nagar, Main Rd, Avanti Vihar, Raipur, Chhattisgarh 492007",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Sara", "Troy", "Uma", "Violet"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "raipur"
+  },
+  {
+    "saloon": "Icon",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F71cfMXlgJ2L._SL1110_.jpg&tbnid=d-0zysBh8tx3mM&vet=10CFMQMyiMAWoXChMImInZu8Xb_gIVAAAAAB0AAAAAEAM..i&imgrefurl=https%3A%2F%2Fwww.amazon.in%2Fmarvellous-beard-stickers-salon-Restaurant%2Fdp%2FB075ZX4LVH&docid=xcGw-8b-KEmajM&w=1110&h=1110&q=unisex%20salon%20images&hl=en&ved=0CFMQMyiMAWoXChMImInZu8Xb_gIVAAAAAB0AAAAAEAM",
+    "address": " C-27/28, Sector 4, Near Gujrati School, Devendra Nagar, Raipur, Chhattisgarh 492001",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Sara", "Troy", "Uma", "Violet"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "raipur"
+  },
+  {
+    "saloon": "coral",
+    "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Flookaside.fbsbx.com%2Flookaside%2Fcrawler%2Fmedia%2F%3Fmedia_id%3D100072242253765&tbnid=2UZ43ooqXnV0xM&vet=10CJYBEDMoqQFqFwoTCJiJ2bvF2_4CFQAAAAAdAAAAABAD..i&imgrefurl=https%3A%2F%2Fwww.facebook.com%2Fcoralunisex%2F&docid=HGHlByMRlupNnM&w=2048&h=2048&q=unisex%20salon%20images&hl=en&ved=0CJYBEDMoqQFqFwoTCJiJ2bvF2_4CFQAAAAAdAAAAABAD",
+    "address": " shop No: 26, Nagar Nigam Colony, Samta Colony, Raipur, Chhattisgarh 492001",
+    "services": [
+      { "service":"haircut","price": 500 },
+      { "service":"tan removal","price": 1000 },
+      { "service":"oil-massage", "price":2500 },
+      {  "service":"ocu-punture","price": 2500 },
+      { "service":"bridal-makeup-grooming","price": 15000 },
+      { "service":"pedicure","price": 1000 },
+      { "service":"manicure","price": 500 },
+      { "service":"total-skin-care","price": 6000 },
+      { "service":"blackheads-removal","price": 1000 },
+      { "service":"hair-removal/waxing","price": 1500 }
+    ],
+    "totalemployees":["Andy", "Bridget", "Chad", "Dana"],
+    "timingslots":["10:00 A.M","11:00 A.M","12:00 P.M","1:00 P.M","3:00 P.M","4:00 P.M","5:00 P.M","6:00 P.M","7:00 P.M","8:00 P.M"],
+    "city": "raipur"
+  }
+]
