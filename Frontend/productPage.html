@@ -52,26 +52,7 @@
         </div>
       </header>
 
-      <!-- <section>
-        <div class="s01">
-          <form>
-            <fieldset>
-              <legend>We Will Help You To Find Your Magicians</legend>
-            </fieldset>
-            <div class="inner-form">
-              <div class="input-field first-wrap">
-                <input id="search" type="text" placeholder="What are you looking for?" />
-              </div>
-              <div class="input-field second-wrap">
-                <input id="location" type="text" placeholder="location" />
-              </div>
-              <div class="input-field third-wrap">
-                <button id="buttonEnt" class="btn-search" type="button">Search</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </section> -->
+     
 
       <div id="detail">
         <!-- <div class="total-pro">
@@ -112,7 +93,7 @@
           <div class="row">
   
             <div class="col-lg-3 col-md-6 footer-contact">
-              <h3><span><img width="70%" style="margin-left: -10px;" src="../Frontend/logos/BeautygemLogo.png" alt=""></span></h3>
+              <h3><span><img width="70%" style="margin-left: -10px;" src="../Frontend/logos/BEAITIFY with icon.jpg" alt=""></span></h3>
               <p>
                 A108 Adam Street <br>
                 New York, NY 535022<br>
@@ -177,32 +158,16 @@
 
 <script>
 
-//     let getData = document.querySelector("#buttonEnt")
-// getData.addEventListener("click",()=>{
-//   let service_ser = document.querySelector("#search").value
-//   let location_ser = document.querySelector("#location").value
 
-//   let user_search = {
-//     "service": service_ser,
-//     "location": location_ser
-//   }
-
-//   sessionStorage.setItem("userSearch", JSON.stringify(user_search))
-
-//   document.querySelector("#search").value = "";
-//   document.querySelector("#location").value = ""
-//   //console.log(service_ser, location_ser, user_search);
-//   window.location.href = "productPage.html"
-// })
 
 
 
     let globalData = []
   //NEEDED place AND service from sessionstorage
-  let userSearchProduct = JSON.parse(sessionStorage.getItem("userSearch"))
+  let userSearchProduct = JSON.parse(sessionStorage.getItem("userSearch")) || {};
   //console.log(userSearchProduct);
-  let place = userSearchProduct.location;
-  let service = userSearchProduct.service;
+  let place = userSearchProduct.location || " " ;
+  let service = userSearchProduct.service || " " ;
 
   window.addEventListener("load",()=>{
     // TECK DATA FROM LOCALSTORAGE 
@@ -219,11 +184,20 @@
           }
         })
 
-        let pro_data = await res.json()
+        let pro_data = await res.json();
+        
+        if(place!=" " || service != " "){
+            let filterdata= pro_data.filter(function(element){
+                return element.city.toLowerCase() == place.toLowerCase(); 
+            })
+          globalData=[...filterdata];
+        }else{
+          globalData = [...pro_data]
+        }
         console.log(pro_data);
-        globalData = [...pro_data]
-        render(pro_data)
-        detaileData(pro_data)
+        
+        render(globalData)
+        detaileData(globalData)
     } catch (error) {
         alert(`Please Login`)
         console.log(error);
@@ -238,14 +212,13 @@
           <p>Recommended</p>
           <div></div>
         </div>
-        <h1>${pro_data.length} results for ${service} in ${place}</h1>
+        // <h1>${pro_data.length} results for ${service} in ${place}</h1>
         <p>${place} - ${service}</p>
-        
-       
     </div>    
     `
   }
-
+  
+  
   function render(pro_data){
     let continer = document.querySelector("#product")
     continer.innerHTML = ""
@@ -305,7 +278,7 @@
     }
   }
 
-  document.querySelector("#logo").addEventListener("click",()=>{
+  document.querySelector(".logo").addEventListener("click",()=>{
     window.location.href = "index.html"
   })
 
