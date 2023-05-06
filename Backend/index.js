@@ -37,7 +37,7 @@ app.use("/newtoken", newtokenRouter);
 // authenticate [use this to authenticate];
 //authenticate
 
-app.use("/api",approuter)
+app.use("/api",approuter);
 app.listen(port, async () => {
   try {
     await connection;
