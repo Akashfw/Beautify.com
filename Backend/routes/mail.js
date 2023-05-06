@@ -6,7 +6,7 @@ const nodemailer = require("nodemailer");
 const { userModel } = require("../models/users.model");
 // Generate SMTP service account from ethereal.email
 mroute.post("/sendotp", async (req, res) => {
-  let { email, password, mobile, Name } = req.body;
+  let {name, email, password, mobile } = req.body;
   nodemailer.createTestAccount((err, account) => {
     if (err) {
       console.error("Failed to create a testing account. " + err.message);
@@ -35,7 +35,7 @@ mroute.post("/sendotp", async (req, res) => {
       from: "masaischoolproject@gmail.com",
       to: `${req.body.email}`,
       subject: "One-Time_Password Verification !",
-      text: `OTP Vefification ${OTP}`
+      text: `OTP Vefification ${otp}`
     //   html: `<p><b>Hello</b> to Mr.chaitanya this is ur otp for weconnect ${otp}</p>`,
     };
 
@@ -44,7 +44,7 @@ mroute.post("/sendotp", async (req, res) => {
         console.log("Error occurred. " + err.message);
         return process.exit(1);
       }
-      await client.SETEX("otp", 500, otp);
+      await client.SETEX("otp", 5000, otp);
       bcrypt.hash(password, 5, async (err, hash) => {
         if (err) {
           console.log(err + "in hassing");
@@ -52,7 +52,7 @@ mroute.post("/sendotp", async (req, res) => {
           req.body.password = hash;
           console.log(req.body);
          await client.hSetNX("data", `${otp}`, JSON.stringify(req.body)); 
-          res.status(200).send("otp send to mail");
+          res.status(200).send("otp is sent to your mail");
         }
         // console.log('Message sent: %s', info.messageId);
         // // Preview only available when sending through an Ethereal account

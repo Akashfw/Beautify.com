@@ -1,11 +1,18 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
+app.use(
+  cors({
+    origin: "*",
+  })
+);
 app.use(express.json());
 require("dotenv").config();
 const {approuter}=require("./routes/appointment")
 const { connection } = require("./confige/config");
+
 const port = process.env.PORT || 8081;
+
 
 // const { userRoute } = require("./routes/user.routes");
 const { mroute } = require("./routes/mail");
@@ -14,11 +21,7 @@ const { users } = require("./routes/users");
 const { newtokenRouter } = require("./routes/newtokenRouter");
 // const { authenticate } = require("./middleware/auhenticate");
 
-app.use(
-  cors({
-    origin: "*",
-  })
-);
+
 
 app.get("/", (req, res) => {
   res.send("Home Page");
