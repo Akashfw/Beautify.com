@@ -112,12 +112,12 @@ async function fun(event) {
        password:p.password,
        otp:jhola
     };
-    let register_request = await fetch("https://should-app.cyclic.app/user/register", {
+    let register_request = await fetch("http://localhost:8080/mail/verify", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(userObj)
+      body: JSON.stringify(jhola) 
     })
     .then(res=>res.json())
     .then(data=>  {

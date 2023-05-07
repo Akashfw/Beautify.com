@@ -18,8 +18,8 @@
 			<div class="login">
 				<form class="form">
 					<label for="chk" aria-hidden="true">Log in</label>
-					<input class="input" type="email" name="email" placeholder="Email" id="email" required="true">
-					<input class="input" type="password" name="pswd" placeholder="Password" required="true" id="password">
+					<input class="input" type="email" name="email" placeholder="Email" id="Email" required="true">
+					<input class="input" type="password" name="pswd" placeholder="Password" required="true" id="pass">
 					<button id="login-btn" >Log in</button>
 				</form>
 			</div>
@@ -30,6 +30,7 @@
 					<input class="input" type="text" name="txt" placeholder="Username" id="name" required="true" />
 					<input class="input" type="email" name="email" id="email" placeholder="Email" required="true" oninput="validation()" />
 					<input class="input" type="password" name="pswd" placeholder="Password" required="true" id="password" oninput="validation()" />
+          <input class="input" type="number" name="mobile" placeholder="Mobie Number" required="true" id="mobile">
 					<button id="signup">Register</button>
 					<!-- <a href="./adminpage/html/adminlogin.html" style="text-decoration: none;"><button  class="Sign_UP_Create_Button" id="admin">Admin Side</button> -->
 				</form>
@@ -76,17 +77,20 @@
         Register_btn.innerHTML=`Loading <div class="dot"></div>`
         
         event.preventDefault();
+        let name= document.querySelector('#name').value
         let email = document.querySelector("#email").value;
         let password = document.querySelector("#password").value;
+        let mobile= document.querySelector("#mobile").value
+
         
         let userObj = {
+          name,
           email,
           password,
+          mobile
        
         };
-      //  let arr =[]
-      //  arr.push(userObj)
-  // console.log(arr)
+      
   let flag=true;
   let status=null
   if(email=="admin@gmail.com" && password =="admin"){
@@ -95,7 +99,7 @@
 
   
         let register_request = await fetch(
-          "https://long-pear-slug-belt.cyclic.app/user/otp",
+          "http://localhost:8080/mail/sendotp", 
           {
             method: "POST",
             headers: {
@@ -104,27 +108,40 @@
             body: JSON.stringify(userObj),
           }
         )
-          .then((res) => res.json())
-          .then((res) => {
-            // console.log(data)
-            if(res.status==401){
-              alert('You have to login');
-              window.location.href="./login.html"
-              flag=false
-            }
-            if(flag){
-              Register_btn.innerHTML=`Create your Account`
-            alert("Please Verify your OTP !");
-           localStorage.setItem("user",JSON.stringify(userObj))
-           localStorage.setItem("back",JSON.stringify(res))
+          .then((res)=>{
+           if(res.status==200){
+            Register_btn.innerHTML=`Create your Account`
+            localStorage.setItem("user",JSON.stringify(userObj))
+            localStorage.setItem("back",JSON.stringify(res))
+            window.location.href="./otp.html"
+           }{
+            alert("Something went wrong")
+           }
+            // res.json()
+          })
+          // .then((data) => {
+          //   console.log(data)
+          //   // if(res.status!==200){
+          //   //   alert('You have to login');
+          //   //   window.location.href="#"
+          //   //   flag=false
+          
+          //   // }
+          //   })
+        //     console.log(res)
+        //     if(flag){
+              // Register_btn.innerHTML=`Create your Account`
+        //     alert("Please Verify your OTP !");
+        //    localStorage.setItem("user",JSON.stringify(userObj))
+        //    localStorage.setItem("back",JSON.stringify(res))
           
           
-         window.location.href="./otp.html"
-        }
+        //   window.location.href="./otp.html"
+        // }
         
 
-          })
-          .catch((err) => console.log(err));
+        //   })
+          .catch((err) => alert(err.message));
         }
       } catch (error) {
         alert("Something went wrong. Please try again later.");
@@ -135,9 +152,9 @@
    
     }
 
-    // document.querySelector("#logo").addEventListener("click",()=>{
-    //   window.location.href = "index.html"
-    // })
+    document.querySelector(".logo").addEventListener("click",()=>{
+      window.location.href = "index.html"
+    })
 
 
 
@@ -151,8 +168,8 @@ async function func(event) {
     event.preventDefault();
     // let all_input_tags = document.querySelectorAll("#register input");
 
-    let email = document.querySelector("#email").value;
-    let  password = document.querySelector("#password").value;
+    let email = document.querySelector("#Email").value;
+    let  password = document.querySelector("#pass").value;
     let userObj = {
       email,
       password
@@ -160,7 +177,7 @@ async function func(event) {
 
 
 
-    let register_request = await fetch("https://long-pear-slug-belt.cyclic.app/user/login", {
+    let register_request = await fetch("http://localhost:8080/login/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -179,7 +196,7 @@ async function func(event) {
           window.location.href = "./index.html"
         } else {
           alert(data.msg)
-          window.location.href = "./login.html"
+          window.location.href = "#"
         }
             
       })
@@ -189,9 +206,9 @@ async function func(event) {
   }
 }
 
-  // document.querySelector("#logo").addEventListener("click",()=>{
-  //   window.location.href = "index.html"
-  // })
+  document.querySelector(".logo").addEventListener("click",()=>{
+    window.location.href = "index.html"
+  })
     
 
 

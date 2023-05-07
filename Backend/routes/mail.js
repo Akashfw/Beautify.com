@@ -52,7 +52,7 @@ mroute.post("/sendotp", async (req, res) => {
           req.body.password = hash;
           console.log(req.body);
          await client.hSetNX("data", `${otp}`, JSON.stringify(req.body)); 
-          res.status(200).send("otp is sent to your mail");
+          res.status(200).send("otp is send to your mail");
         }
         // console.log('Message sent: %s', info.messageId);
         // // Preview only available when sending through an Ethereal account
@@ -72,12 +72,12 @@ mroute.post("/verify", async (req, res) => {
     data = JSON.parse(data);
     let Data = new userModel(data);
     await Data.save();
-    res.send("Verfied");
+    res.status(200).send("Verfied");
   } else {
     res.status(500).send("Invalid OTP");
   }
-});
-
+})
+;
 
 
 module.exports = { mroute };
