@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointments Page</title>
+
+    <link href="./logos/BEAITIFY with icon.jpg" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Style Link -->
+    <link rel="stylesheet" href="./assets/css/appintmentPage.css">
+    <link rel="stylesheet" href="./assets/css/productPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    
+</head>
+<body>
+<div class="p-nav">
+    <div class="logo">
+      <img id="logo" style="width: 50%;margin-top: -10px;cursor: pointer;" src="logos/BEAITIFY with icon.jpg" alt="logo">
+    </div>
+    <div class="search">
+      <input type="text">
+      <button style="background-color: #106e73;">Search</button>
+    </div>
+    <div class="name">
+      <!-- add Person name -->
+      <h3>PR</h3>
+    </div>
+  </div>
+<div class="main-body">
+    <div class="main-container">
+        <div class="left-container" style="padding: 15px;">
+            <div class="upcoming-appointments">
+                <h3 style="color: #106e73; text-align: center;">Upcoming Appointments</h3>
+                <div id="ua-data">
+                    <!-- card-1 -->
+                    <!-- <div class="apointment-card">
+                        <div class="card-img-div">
+                            <img class="salon-img-src" src="https://naturals.in/wp-content/uploads/2022/05/Naturals-Logo-copy.png" alt="">
+                        </div>
+                        <div class="description-div">
+                            <p>Tommorow 9:45am</p>
+                            <h4>Naturals Hair & Beaty Salon - Maramalainagar</h4>
+                            <p>Shave</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <!-- Location map -->
+            <div class="map">
+                <h3 style="color: #106e73;">Salon Location</h3>
+                <iframe id="map" style="width: 97%; height: 80%;" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
+            </div>
+
+            <div class="past-appointments">
+                <h3>Past Appointments</h3>
+                <div id="pa-data">
+                    <!--  -->
+                    <!-- card-1 -->
+                    <div id="so-card">
+                        <div style="cursor: pointer;" class="apointment-card">
+                            <div class="card-img-div">
+                                <!-- add image here -->
+                                <img class="salon-img-src" src="https://images.fresha.com/locations/location-profile-images/438433/424236/fffefd94-2296-4d8c-9d86-115a848e7300.jpg?class=width-small" alt="">
+                            </div>
+                            <div class="description-div">
+                                <!-- add description here -->
+                                <p style="color: red;">Date: 2023-04-01 At 10:30am</p>
+                                <h4 style="margin-left: 14px; color: rgb(52, 156, 167);">Naturals Hair & Beaty Salon - Maramalainagar</h4>
+                                <p>Shave</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="appointments-calender">
+                <!-- calender details -->
+               
+                <div class="calender-details-user">
+                    <div id="status" style="width: 45%; margin-left: 6%; border-radius: 15px; text-align: center;color: #fff; display: flex; justify-content: space-evenly;padding: 5px 0px; ">
+                     
+                    </div>
+                    <h3 id="day"></h3>
+                    <h2 id="salon"></h2>
+
+                </div>
+                <!-- manage apointmetns -->
+                <div class="mng-apointments">
+                    <div id="spinner" style="margin-left: -30%;display: none;" class="spinner"></div>
+                    <button class="" id="apointmentsbtn" style="background-color: #106e73;">Manage appointments</button>
+                    <div id="myPopup" style="height: 430px;">
+                        <!-- <button id="close-btn"        id="closePopup">Close</button> -->
+                        <div id="close-btn" style="display: flex; justify-content: end; color: red;
+                        -webkit-backdrop-filter: blur(41px);
+                        backdrop-filter: blur(41px);;border: none;"><i class="fa fa-close" style="font-size:36px"></i></div>
+                        <h3 style="text-align: center; color: #106e73;">Manage Appointment</h3>
+                        <div id="pop-card" style="display: flex; flex-direction:column;">
+                            <p><span>Note:</span> If you want to reschedule an appointment
+                                'click' on 'reschedule appointment'
+                            </p>
+                            <button id="pop-btn1">Reschedule appointment</button>
+                            
+                            <p><span>Note:</span> If you want to cancel an appointment
+                                'click' on 'cancel appointment'
+                            </p>
+                            <button id="pop-btn2">Cancel appointment</button>
+                            <!--  -->
+                     <!-- close up btn -->
+                     <!-- <div id="myPopup1">
+                        <button id="close-btn"   id="closePopup">Close</button>
+                        <h3>Are You Shure you want to delete a appointment</h3>
+                        <div style="display: flex; flex-direction:column;">
+                            <button id="pop-btn1">Close</button>
+                            <button id="pop-btn2">Cancel</button>
+                        </div> 
+                    </div> -->
+                    <!--  -->
+                    <!--  -->
+                        </div>
+                    </div>
+                    
+                    <!--  -->
+   
+                </div>
+            </div>
+            <div class="appintments-details">
+                <div class="appintments-details-main-clild">
+                    <h3 style="color: #106e73;">Appointments Details</h3>
+                    <div id="service_detail" class="apoint-for">
+                        <!-- <div class="apoint-for-child-1">
+                            <p>Shave</p>
+                            <p>&#8377 <span>100</span></p>
+                        </div>
+                        <div class="apoint-for-child-1">
+                            <p>Shave</p>
+                            <p>&#8377 <span>100</span></p>
+                        </div> -->
+                    </div>
+                    <hr>
+                    <div id="total_amo" class="total-amount">
+                        <!-- <div class="apoint-for-child-2">
+                            <h3>total</h3>
+                            <h3>&#8377 <span>100</span></h3>
+                        </div> -->
+                    </div>
+                    <hr>
+                    <div id="ref" class="booking-ref">
+                        <!-- <h4>Booking ref :  <span>93A6A633</span></h4> -->
+                    </div>
+                </div>
+                <div class="cancelation-policy">
+                    <h3 style="color: rgb(99, 95, 95);"><i class="material-icons" style="font-size:29px;margin-right: 5px; color: red;">cancel</i>Cancelation policy</h3>
+                    <p>Cancel for free up to 48 hours ahead, otherwise you will be charged 50% of the service price for late cancellation or 100% for not showing up.</p>
+                </div>
+                <hr>
+                <div class="info">
+                    <h3 style="color: rgb(99, 95, 95);"><i class="fa fa-info-circle" style="font-size:26px;margin-right: 5px; color: red;"></i>Important info</h3>
+                    <p>Please kindly aim to arrive at least 5 minutes before the start time of your appointment. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<footer id="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3><span><img width="70%" style="margin-left: -10px;" src="../Frontend/logos/BEAITIFY with icon.jpg" alt=""></span></h3>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Beautify</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
+        Designed by <a href="#">Beautygem Team</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+</body>
+</html>
+<script src="./assets/js/appointmentpage.js"></script>

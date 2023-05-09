@@ -388,28 +388,28 @@ h6 {
 .search input{
     padding: 8px 45px;
     border-radius: 50px;
-    border:3px solid #37517e;
+    border:3px solid #106e73;
     margin-right: 10px;
     font-size: medium;
-    color: #37517e;
+    color: #106e73;
     font-weight: 600;
 }
 .search button {
     padding: 8px 25px;
     border-radius: 50px;
-    border:3px solid #37517e;
-    background-color: #37517e;
+    border:3px solid #106e73;
+    background-color: #106e73;
     color: white;
     font-weight: 600;
     cursor: pointer;
 }
 .search button:hover {
     background-color: white;
-    color: #37517e;
+    color: #106e73;
 }
 .name {
     margin-right: 40px;
-    border: 3px solid #37517e;
+    border: 3px solid #106e73;
     text-align: center;
     padding: 5px 25px;
     border-radius: 50px;
@@ -511,7 +511,7 @@ h6 {
 }
 .auto-type>h1 {
   text-align: center;
-  color: #37517e;
+  color: #106e73;
 }
 .not-found {
   width: 30%;
