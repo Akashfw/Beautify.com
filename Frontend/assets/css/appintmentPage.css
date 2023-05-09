@@ -10,9 +10,9 @@
     font-family: "poppins",sans-serif;
 }
 :root{
-    --main-color:#033a80;
+    --main-color:#106e73;
     --bg-color:#fff;
-    --text-color:#0f0c27;
+    --text-color:#106e73;
     --hover:hsl(260,200%,51%);
     --big-font:3.2rem;
     --medium-font:1.8rem;
@@ -134,10 +134,10 @@ width: auto;
 .past-appointments h3 {
   text-align: center;
   margin: 15px 0px;
-  color: #0f0c27;
+  color: #106e73;
 }
 .apointment-card:hover{
-  border: 2px solid hsl(260, 100%, 51%);
+  border: 2px solid #106e73;
 }
 
 .card-img-div{
@@ -194,7 +194,7 @@ border-radius: 10px;
     margin-bottom: 10px;
 }
 #apointmentsbtn:hover{
-    background-color:hsl(260, 100%, 51%); ;
+    background-color:#4b8e92; ;
     color: #fff;
 }
 
@@ -205,7 +205,7 @@ border-radius: 10px;
 }
 .map h3 {
   text-align: center;
-  color: #033a80;
+  color: #106e73;
 }
 
 .calender-details-user{
@@ -233,7 +233,7 @@ border-radius: 10px;
 }
 .appintments-details-main-clild>h3 {
   text-align: center;
-  color: #033a80;
+  color: #106e73;
   padding: 5px;
 }
 .appintments-details-main-clild hr{
@@ -268,7 +268,7 @@ border-radius: 10px;
   justify-content: space-between;
 }
 .apoint-for-child-2>h3 {
-  color: #195aaf;
+  color: #106e73;
 }
 .appintments-details>hr{
   font-size: 10px;
@@ -280,7 +280,7 @@ border-radius: 10px;
   padding: 5px 0px;
 }
 .booking-ref h4 {
-  color: #195aaf;
+  color: #106e73;
 }
 .booking-ref>h4>span {
   color: green;
@@ -332,7 +332,7 @@ border-radius: 10px;
   #pop-btn1{
     height: 40px;
     margin-top: 15px;
-    background-color: hsl(260, 100%, 51%);
+    background-color: #427b7e;
     color: white;
     border: 1px solid grey;
     border-radius: 10px;
@@ -355,8 +355,8 @@ border-radius: 10px;
   }
   #pop-btn1:hover{
     background-color: white;
-    color: hsl(260, 100%, 51%);
-    border: 2px solid hsl(260, 100%, 51%);
+    color: #406f72;
+    border: 2px solid #3b7275;
     font-weight: bold;
   }
 
@@ -412,19 +412,19 @@ border-radius: 10px;
   color: grey;
  }
  #salon {
-  color: #033a80;
+  color: #106e73;
  }
  #apointmentsbtn {
-  background-color: #033a80;
+  background-color: #106e73;
   color: white;
   font-size: medium;
   border: none;
   cursor: pointer;
  }
  #apointmentsbtn:hover {
-  color: #033a80;
+  color: #106e73;
   background-color: white;
-  border: 2px solid #033a80;
+  border: 2px solid #106e73;
  }
  
  @keyframes spinner-c7wet2 {
