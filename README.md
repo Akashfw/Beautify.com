@@ -25,8 +25,9 @@ For Deployment we used Netlify and Cyclic .Frontend deployed on Netlify and Back
 - Akash Shukla : Team Leader
 - Saurabh Kumar Gupta
 - Sriram deva
-- Pawan
--Shasank  <hr>
+- Pavan Ingalagi
+- Shasank  
+<hr>
 ## Technology we used....🔧
 - HTML
 - CSS
