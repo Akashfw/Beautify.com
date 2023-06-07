@@ -47,6 +47,8 @@ For Deployment we used Netlify and Cyclic .Frontend deployed on Netlify and Back
 - user/all/products
 - /addData/servies/   <hr>
 ## Images ✌️
+![Screenshot (310)](https://github.com/Akashfw/Beautify.com/assets/112767782/cf05a1f0-db5f-4a29-846b-8a5f9531c2fb)
+
 
 
 
