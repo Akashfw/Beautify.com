@@ -47,7 +47,7 @@ For Deployment we used Netlify and Cyclic .Frontend deployed on Netlify and Back
 - user/all/products
 - /addData/servies/   <hr>
 ## Images ✌️
-![Screenshot (306)](https://github.com/Akashfw/cloistered-carriage-1754/assets/112767782/58f51613-897b-4ca3-838d-92ab6679a18b)
+
 
 
 
